@@ -1,0 +1,15 @@
+h1 {
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: bold;
+  margin: 0;
+  font-family: "open sans", sans-serif;
+  /* font-family: "open sans", sans-serif;: fonr chữ in hoa */
+  font-size: 100px;
+}
+.div {
+  display: inline-block;
+}
+img {
+  width: 500px;
+}

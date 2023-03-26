@@ -1,0 +1,12 @@
+Tao tai khoản github qua emai
+
+1. khởi tạo git: git innit
+2. ktra trạng thái git : git status
+3. thêm các file, thư mục vào track: git add .
+4. ktra lại trạng thái : git status
+5. commit track: git commit -m <nội dung commit> //ex: git commit - m "update file "
+   <!-- kết nối với repository -->
+   1.thêm đường dẫn repo: git remote add origin <link repo> //ex: git remote add origin https://github.com/khoalyRikkei/Partime_1703_Module_1 2. chuyển tạo branch mới: git checkout -b <ten brabch> // ex: git checkout -b session_02 3. đây data lên repo: git push --set upstream origin tên branch // ex: git push --set-upstream origin session_02
+   <!-- say khi đã cấu hình git, muốn đẩy data mới lên  -->
+   git add
+   git commit -m ' nôi dung'

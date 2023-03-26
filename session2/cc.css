@@ -1,0 +1,48 @@
+b {
+  color: blue;
+  font-size: 100px;
+  font-family: "Delicious Handrawn", cursive;
+  font-family: "Edu NSW ACT Foundation", cursive;
+}
+h3 {
+  background: rgb(178, 3, 3);
+}
+li {
+  color: rgb(241, 226, 17);
+  font-size: 50px;
+}
+.bander {
+  background-image: url();
+  border: 10px;
+  height: 800px;
+  background-size: cover;
+  background-repeat: ;
+  background-position: center;
+}
+/* vị trí */
+/* background postion */
+/* boder */
+/* đại diện dấu * */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+.box {
+  dth: 200px;
+  height: ;
+  padding: ;
+  margin: ;
+  border: 5px inset red;
+  background: ;
+}
+.inline {
+  width: ;
+  height: ;
+  padding: ;
+  display: ;
+  margin: ;
+  border: ;
+}
+.none {
+}

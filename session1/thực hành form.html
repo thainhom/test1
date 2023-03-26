@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>thực hành form</title>
+  </head>
+  <body>
+    <h1>create account</h1>
+    <fieldset>
+      <legend>registration information</legend>
+      <label for="first name"> <b>first name*:</b> </label>
+      <input
+        type="text"
+        name="first name"
+        placeholder="Enter your first name"
+      />
+      <label for="Last name"> <b>Last name*:</b> </label>
+      <input type="text" name="Last name" placeholder="Enter your Last name" />
+      <br /><br />
+      <label for="email"><b>email*:</b></label>
+      <input type="text" name="enter your name" placeholder="enter your name" />
+      <label for="phone"><b>phone*:</b></label>
+      <input
+        type="text"
+        name="enter your phone number"
+        placeholder="enter your phone number"
+      />
+      <br /><br />
+      <label for="passwword"><b>password*: </b></label>
+      <input type="text" name="enter password" placeholder="enter password" />
+      <label for="confirmpassword"><b>confirmpassword*:</b></label>
+      <input
+        type="text"
+        name="enter your password"
+        placeholder="enter your password"
+      />
+    </fieldset>
+    <br />
+    <br />
+    <fieldset>
+      <legend>personal information</legend>
+      <form>
+        <label for="gender"><b>gender*:</b></label>
+        <input type="radio" name="gander" value="male" />
+        <label>male</label>
+        <input type="radio" name="gander" value="female" />
+        <label>female</label>
+        <label for="hobbies"><b>hobbies*:</b></label>
+        <input type="checkbox" name="hobbies" value="music" />
+        <label>music</label>
+        <input type="checkbox" name="hobbies" value="sports" />
+        <label>sports</label>
+        <input type="checkbox" name="hobbies" value="travel" />
+        <label>travel</label>
+        <input type="checkbox" name="hobbies" value="movies" />
+        <label>movies</label><br /><br />
+        <label for="source"><b>source for income*:</b></label>
+        <select>
+          <option value="employed">employed</option>
+          <option value="no job">no job</option>
+        </select>
+        <label for="income"><b>income</b></label>
+        <input type="range" name="income" min="1" max="5" />
+        <br /><br />
+        <label for="age"><b>age*:</b></label>
+        <input type="number" id="age" name="age" min="0" max="100" />
+        <label for="profile picture"><b>profile picture*:</b></label>
+        <button>chossefile</button>
+        <label>no file chosen</label><br /><br />
+        <label><b>birthday*:</b></label>
+        <input type="date" name="dob" id="dob" />
+        <label for="address"><b>address*:</b></label>
+        <input type="address" name="address" /><br /><br />
+        <label><b>bio*:</b></label>
+        <textarea name="bio" id="bio" cols="60" rows="10"></textarea>
+        <br /><br />
+
+        <button>create</button>
+        <button>reset</button>
+      </form>
+    </fieldset>
+    <br />
+    <br />
+    <form action="https://www.google.com.vn/?hl=vi">
+      <input type="text" name="input" />
+      <input type="submit" value="tim kiem" />
+    </form>
+    <br />
+    <br />
+    <form action="https://www.w3schools.com/html/default.asp">
+      <label>First name:</label><br />
+      <input type="text" value="Mickey" /><br />
+      <label>Last name:</label><br />
+      <input type="text" name="lastName" value="Mouse" /><br />
+      <input type="submit" value="Tìm kiếm" />
+    </form>
+    <br /><br />
+    <form>
+      <label>Account:</label>
+      <input type="text" name="account" value="admin" /><br />
+      <label>Sở thích:</label><br />
+      <input name="travel" value="travel" type="radio" />Du lịch<br />
+      <input name="sport" name="sport" type="radio" />Thể thao<br />
+      <input name="cooking" name="cooking" type="radio" />Nấu ăn<br /><br />
+      <input type="submit" value="Submit" />
+      <br /><br />
+      <select name="city" multiple>
+        <option value="hn">Hà Nội</option>
+        <option value="hp">Hải Phòng</option>
+        <option value="dn">Đà Nẵng</option>
+        <option value="sg">Sài Gòn</option>
+        <option value="ct">Cần Thơ</option></select
+      ><br />
+      ><br />
+    </form>
+    <h2>Thời Khóa Biểu</h2>
+    <table border="1" width="50%">
+      <tr>
+        <th rowspan="2">Thứ</th>
+        <th colspan="2">Hoạt động</th>
+      </tr>
+      <tr>
+        <th>Sáng</th>
+        <th>Chiều</th>
+      </tr>
+      <tr>
+        <td>thu2</td>
+        <td>di lam</td>
+        <td>code dao</td>
+      </tr>
+      <tr>
+        <td>thu4</td>
+        <td>di lam</td>
+        <td>hoc code</td>
+      </tr>
+      <tr>
+        <td>thu6</td>
+        <td>di lam</td>
+        <td>hoc code</td>
+      </tr>
+      <tr>
+        <td>chu nhat</td>
+        <td>di lam</td>
+        <td>hoc code</td>
+      </tr>
+    </table>
+  </body>
+</html>

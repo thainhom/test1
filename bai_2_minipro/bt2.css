@@ -1,0 +1,12 @@
+.line {
+  width: 50px;
+  height: 2px;
+  background-color: orange;
+}
+.info {
+  display: inline-block;
+  vertical-align: top;
+}
+i {
+  margin-right: 10px;
+}

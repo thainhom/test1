@@ -1,0 +1,51 @@
+h2 {
+  text-align: center;
+}
+img {
+  width: 100%;
+}
+.header {
+  background: black;
+  padding: 20px;
+}
+header {
+  color: white;
+}
+.banner-btn {
+  text-align: center;
+}
+.card {
+}
+.abum {
+  background-color: rgb(16, 208, 144);
+  padding: 30px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  margin-top: 50px;
+  gap: 20px;
+}
+i {
+  margin-right: 10px;
+}
+body {
+  max-width: 1000px;
+  margin: 0 auto;
+}
+#banner {
+  padding: 100px;
+}
+.card-btn {
+  display: flex;
+}
+i {
+  color: white;
+}
+.gird {
+  display: grid;
+  grid-template-columns: repeat(8, 1fr);
+  gap: 10px;
+}
+.item {
+  height: 300px;
+  width: 100%;
+}

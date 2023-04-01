@@ -1,0 +1,17 @@
+body {
+  display: grid;
+  grid-template-columns: repeat(5, 1pr);
+  grid-auto-rows: 200px;
+  gi
+}
+body > *{
+    border: red
+}
+.abum{
+    display: grid;
+    gap: 20px;
+
+}
+img{
+    height: 300px
+}

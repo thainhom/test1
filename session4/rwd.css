@@ -1,0 +1,67 @@
+/* thiet ke kieu mobile first */
+body {
+  background-color: rgb(52, 225, 52);
+}
+.gird {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+}
+@media screen and (min-width: 600px) {
+  body {
+    background-color: blue;
+  }
+  .tablet {
+    display: none;
+  }
+  .mobile {
+    display: block;
+  }
+  .desktop {
+    display: block;
+  }
+  .gird {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+@media screen and (min-width: 768px) {
+  body {
+    background-color: rgb(214, 20, 20);
+  }
+  .tablet {
+    display: block;
+  }
+  .mobile {
+    display: none;
+  }
+  .desktop {
+    display: block;
+  }
+  .gird {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+@media screen and (min-width: 920px) {
+  body {
+    background-color: purple;
+  }
+  .tablet {
+    display: none;
+  }
+  .mobile {
+    display: none;
+  }
+  .desktop {
+    display: block;
+  }
+
+  .gird {
+    grid-template-columns: repeat(4, 1fr);
+  }
+}
+.item {
+  height: 300px;
+  width: 100%;
+  border: 5px solid red;
+  margin: 0;
+  padding: 0;
+}

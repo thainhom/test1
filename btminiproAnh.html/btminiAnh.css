@@ -1,0 +1,220 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-image: url(/btminiproAnh.html/Decore.png);
+  background-size: contain;
+  background-position: top right;
+  background-repeat: no-repeat;
+  height: 2000px;
+  padding: 10px 50px;
+
+  background-repeat: no-repeat;
+}
+.hero-btn {
+  position: relative;
+  top: 100px;
+}
+header {
+  display: flex;
+  gap: 100px;
+  justify-content: space-around;
+  font-family: "Bebas Neue", cursive;
+  font-family: "Delicious Handrawn", cursive;
+  font-family: "Edu NSW ACT Foundation", cursive;
+  padding: 10px;
+  position: fixed;
+}
+select {
+  border: 1px solid #fff1da;
+  margin-top: -12px;
+}
+.top {
+  margin-left: 222.17px;
+}
+.hero-img {
+  position: absolute;
+  width: 50%;
+  top: 50px;
+  right: 0;
+}
+img {
+  width: 100%;
+}
+.hero-btn {
+  width: 50%;
+}
+h3 {
+  font-size: 84px;
+  font-family: "Volkhov", serif;
+  width: 600px;
+}
+h1 {
+  font-size: 18px;
+  color: rgba(216, 94, 94, 2);
+}
+.btn {
+  position: absolute;
+  top: 582px;
+  display: flex;
+  gap: 20px;
+  align-items: center;
+}
+.btn > button {
+  height: 60px;
+  width: 170px;
+  border: none;
+  border-radius: 3%;
+  background-color: rgb(243, 90, 34);
+  color: white;
+}
+.btn > i {
+  height: 52px;
+  width: 52px;
+  border: none;
+  border-radius: 50%;
+  background-color: red;
+  color: white;
+  text-align: center;
+  padding-top: 16px;
+  font-size: 20px;
+}
+
+.main-d {
+  position: absolute;
+  width: 98px;
+  height: 27px;
+  left: 652px;
+  top: 974px;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 27px;
+  /* identical to box height */
+
+  text-align: center;
+
+  /* TEXT CLR */
+
+  color: #5e6282;
+}
+.main-c {
+  position: absolute;
+  width: 547px;
+  height: 65px;
+  left: 428px;
+  top: 1011px;
+  font-family: "Volkhov";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 50px;
+  line-height: 64px;
+  /* identical to box height */
+
+  text-align: center;
+  text-transform: capitalize;
+
+  /* 3rd */
+
+  color: #14183e;
+}
+.services {
+  position: absolute;
+  /* width: 39.3px;
+  height: 39.42px; */
+
+  top: 1196.63px;
+  display: flex;
+  gap: 200px;
+}
+.services > div {
+  width: fit-content;
+  text-align: center;
+}
+.services > div > img {
+  width: 70px;
+  height: 70px;
+  padding: 10px;
+}
+
+.tieude {
+  position: absolute;
+  width: 100px;
+  height: 27px;
+  left: 682px;
+  top: 1614px;
+
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 27px;
+  /* identical to box height */
+
+  text-align: center;
+
+  /* TEXT CLR */
+
+  color: #5e6282;
+}
+.tieude > div > p {
+  position: absolute;
+  width: 418px;
+  height: 65px;
+  left: -160px;
+
+  font-family: "Volkhov";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 50px;
+  line-height: 64px;
+  /* identical to box height */
+
+  text-align: center;
+  text-transform: capitalize;
+
+  /* 3rd */
+
+  color: #14183e;
+}
+.img-button {
+  position: absolute;
+  display: flex;
+  gap: 10px;
+  margin: 10px;
+  width: 100%;
+  top: 1732px;
+  justify-content: space-evenly;
+  right: -8px;
+}
+
+.img-button > div > img {
+  height: 314px;
+  height: 457px;
+}
+
+.chitiet1 {
+  display: flex;
+
+  justify-content: space-around;
+}
+.chitiet2 {
+  display: flex;
+  gap: 5px;
+  padding-left: 50px;
+  padding-top: 5px;
+}
+.chitiet {
+  position: relative;
+  bottom: 205px;
+  background-color: white;
+  height: 74px;
+  padding-top: 10px;
+}
+img:hover {
+  transform: scale(1.5);
+}

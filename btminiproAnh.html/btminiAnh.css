@@ -27,6 +27,7 @@ header {
   font-family: "Edu NSW ACT Foundation", cursive;
   padding: 10px;
   position: fixed;
+  z-index: 10000;
 }
 select {
   border: 1px solid #fff1da;
@@ -215,6 +216,47 @@ h1 {
   height: 74px;
   padding-top: 10px;
 }
-img:hover {
+
+.footer {
+  position: absolute;
+
+  display: flex;
+  gap: 20px;
+  top: 2133px;
+  width: 100%;
+  right: -104px;
+  align-items: flex-end;
+}
+
+.cuc {
+  width: 17%;
+}
+.footer > .cuc > section {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 21px;
+}
+.footer > .cuc > div > img {
+  width: 107px;
+  height: 35px;
+}
+.icon {
+  width: 107px;
+  height: 40px;
+}
+.icon {
+  display: flex;
+  justify-content: space-between;
+  font-size: 20px;
+}
+.sign {
+  border: 1px solid black;
+  height: 40px;
+  width: 102px;
+  text-align: center;
+  border-radius: 10px;
+}
+header > div:hover {
   transform: scale(1.5);
 }

@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>session6- decision making anh loop</title>
+  </head>
+  <body>
+    <button onclick="bMi()">Tinh chieu cao can nang</button><br />
+    <br />
+    <input type="text" placeholder="nhap vao so a" id="a" />
+    <input type="text" placeholder="nhap vao so b" id="b" />
+    <button onclick="so()">check</button>
+    <p id="result"></p>
+    <br /><br />
+    <input type="text" placeholder="nhập số tuổi của bạn" id="nhaptuoi" />
+    <button onclick="tuoi()">check</button><br /><br />
+    <p id="age"></p>
+    <script>
+      function bMi() {
+        const weight = prompt("nhap vao can nang");
+        const height = prompt("nhap vao chieu cao");
+        const bMi = Number(weight / Math.pow(height, 2)).toFixed(1);
+        switch (true) {
+          case bMi < 18:
+            console.log("ban bi coi suong");
+            break;
+          case bMi < 25:
+            console.log("ban bt");
+            break;
+          case bMi > 26:
+            console.log("ban bi thua can");
+            break;
+
+          default:
+            console.log("ban bi beo phi");
+        }
+      }
+      function so() {
+        let a = document.getElementById("a").value;
+        let b = document.getElementById("b").value;
+        if (a % b == 0) {
+          document.getElementById(
+            "result"
+          ).innerHTML = `${a} chia het cho ${b}`;
+        } else {
+          document.getElementById("result").innerHTML = "a khong het cho b";
+        }
+      }
+      function tuoi() {
+        const mark = document.getElementById("nhaptuoi").value;
+      }
+    </script>
+  </body>
+</html>
